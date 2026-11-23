@@ -1,0 +1,32 @@
+
+/* Ocultar secciones */
+.hidden {
+    display: none;
+}
+
+/* Imagen del Pokemon buscado */
+#pokemon-data img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+/* Información del Pokemon */
+#pokemon-data p {
+    margin: 10px;
+}
+
+/* Boton para agregar a la coleccion */
+#add-to-collection-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #000000;
+    background-color: #00f7ff;
+    border: none;
+    border-radius: 5px;
+}
+
+#add-to-collection-btn:hover {
+    background-color: #ff6347;
+}
